@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  background: #eeeeee;
+  font-size: 1.2rem;
+}
+
+.bg-lav {
+  background-color: #303841;
+}
+#menuburger {
+  color: rgb(248, 4, 4);
+}
+.navbar-brand {
+  font-size: 30px;
+  color: #ff5722;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar .nav-item a {
+  text-decoration: none;
+  color: #00adb5;
+  cursor: pointer;
+}
+
+.navbar .menu a:hover {
+  background: #eeeeee;
+  border-radius: 10px;
+  filter: drop-shadow(2.5px 2.5px 2.5px #ff5722);
+  color: #303841;
+}
+
+.main {
+  padding-bottom: 50px;
+}
+
+form {
+  width: 450px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Changa", sans-serif;
+  color: #eeeeee;
+  box-shadow: 7px 13px 37px #303841;
+  margin-bottom: 4em;
+}
+
+.formulario h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.datos {
+  width: 100%;
+  background: #303841;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #00adb5;
+  font-family: "Changa", sans-serif;
+  font-size: 18px;
+  color: #eeeeee;
+}
+
+.consulta {
+  width: 100%;
+  background: #303841;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #00adb5;
+  font-family: "Changa", sans-serif;
+  font-size: 18px;
+  color: #eeeeee;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.formulario p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  padding-bottom: 80px;
+}
+
+.formulario a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+.formulario a:hover {
+  color: #eeeeee;
+  text-decoration: underline #ff5722;
+}
+
+.botons {
+  width: 100%;
+  background: #00adb5;
+  border-radius: 4px;
+  border: none;
+  padding: 12px;
+  color: #eeeeee;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.formulario .botons:hover {
+  cursor: pointer;
+}
+
+.info {
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1, 5em;
+  border: 2px solid #ff5722;
+  background: #00adb5;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+footer {
+  align-items: center;
+  margin: 0 auto;
+  background-color: #303841;
+  text-align: center;
+}
+
+footer .footer-social a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.4;
+}
+
+footer .footer-social a:hover {
+  border-radius: 10px;
+  filter: drop-shadow(2.5px 2.5px 2.5px #ff5722);
+}
+
+footer .final {
+  text-align: center;
+  font-size: 10px;
+  color: #eeeeee;
+}
+
+@media (max-width: 600px) {
+  form {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+}
