@@ -130,6 +130,9 @@ body {
   .about-img {
     text-align: center;
     padding-top: 60px;
+    @media (max-width: 600px) {
+      margin: 20px;
+    }
   }
 
   #projects2 {
