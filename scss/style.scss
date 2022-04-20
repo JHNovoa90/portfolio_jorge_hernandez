@@ -92,11 +92,20 @@ body {
 
   .home2 {
     justify-content: center;
-    align-items: center;
     text-align: center;
+    overflow:hidden;
     img {
-      margin: auto;
       border-radius: 30%;
+      animation-duration: 5s;
+      animation-name: slidein2;
+      @keyframes slidein2 {
+      from {
+        margin-left: 150%;
+        }
+      to {
+        margin-left: 0%;
+        }
+      }
       @media (max-width: 500px) {
         width: 90%;
         height: 90%;
@@ -105,12 +114,27 @@ body {
   }
 
   .mi-nombre {
+    overflow:hidden;
     color: $azul;
     font-size: 30px;
+    padding-top: 20px;
+    animation-duration: 5s;
+    animation-name: slidein1;
+    @keyframes slidein1 {
+      from {
+        margin-left: 100%;
+        width: 100%
+        }
+      to {
+        margin-left: 0%;
+        width: 100%;
+        }
+      }
     span {
       color: $naranja;
       font-size: 45px;
     }
+
   }
 
   #about2 {
@@ -120,12 +144,31 @@ body {
   }
 
   .about {
+    overflow:hidden;
     p {
+      border-radius: 20%;
       text-align: center;
       margin: auto;
       font-size: 1.2em;
       color: $gris;
       padding-top: 40px;
+      padding-bottom: 40px;
+      animation-duration: 5s;
+      animation-name: slidein;
+      animation-fill-mode:forwards ;
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 100%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+          background-color: $gris;
+          color: $naranja;
+        }
+      }
     }
   }
 

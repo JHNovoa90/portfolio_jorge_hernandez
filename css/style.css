@@ -43,18 +43,37 @@ body {
     padding-top: 80px; }
   .main .home2 {
     justify-content: center;
-    align-items: center;
-    text-align: center; }
+    text-align: center;
+    overflow: hidden; }
     .main .home2 img {
-      margin: auto;
-      border-radius: 30%; }
+      border-radius: 30%;
+      animation-duration: 5s;
+      animation-name: slidein2; }
+
+@keyframes slidein2 {
+  from {
+    margin-left: 150%; }
+  to {
+    margin-left: 0%; } }
       @media (max-width: 500px) {
         .main .home2 img {
           width: 90%;
           height: 90%; } }
   .main .mi-nombre {
+    overflow: hidden;
     color: #00adb5;
-    font-size: 30px; }
+    font-size: 30px;
+    padding-top: 20px;
+    animation-duration: 5s;
+    animation-name: slidein1; }
+
+@keyframes slidein1 {
+  from {
+    margin-left: 100%;
+    width: 100%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
     .main .mi-nombre span {
       color: #ff5722;
       font-size: 45px; }
@@ -62,12 +81,29 @@ body {
     text-align: center;
     color: #00adb5;
     padding-top: 80px; }
-  .main .about p {
-    text-align: center;
-    margin: auto;
-    font-size: 1.2em;
-    color: #303841;
-    padding-top: 40px; }
+  .main .about {
+    overflow: hidden; }
+    .main .about p {
+      border-radius: 20%;
+      text-align: center;
+      margin: auto;
+      font-size: 1.2em;
+      color: #303841;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      animation-duration: 5s;
+      animation-name: slidein;
+      animation-fill-mode: forwards; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%; }
+  to {
+    margin-left: 0%;
+    width: 100%;
+    background-color: #303841;
+    color: #ff5722; } }
   .main .about-img {
     text-align: center;
     padding-top: 60px; }
