@@ -9,7 +9,7 @@ body {
   background: #eeeeee;
   font-size: 1.2rem;
 }
-
+/*inicio de estilos de nav*/
 .bg-lav {
   background-color: #303841;
   position: fixed;
@@ -34,7 +34,9 @@ body {
   filter: drop-shadow(2.5px 2.5px 2.5px #ff5722);
   color: #303841;
 }
+/*fin de estilos de nav*/
 
+/*estilo formulario*/
 .main {
   padding-bottom: 50px;
 }
@@ -118,7 +120,7 @@ textarea {
 .formulario .botons:hover {
   cursor: pointer;
 }
-
+/*nota informativa a pie de formulario*/
 .info {
   padding-top: 50px;
   text-align: center;
@@ -131,7 +133,7 @@ textarea {
   margin: auto;
   padding-bottom: 50px;
 }
-
+/*estilo pie de pg*/
 footer {
   align-items: center;
   margin: 0 auto;
@@ -155,7 +157,7 @@ footer .final {
   font-size: 10px;
   color: #eeeeee;
 }
-
+/*resposnsive formulario*/
 @media (max-width: 600px) {
   form {
     width: 100%;

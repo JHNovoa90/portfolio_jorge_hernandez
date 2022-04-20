@@ -1,4 +1,7 @@
 /*Variables*/
+/*mixins*/
+/*estilos  del nav*/
+/*estilo pie de pg*/
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +12,7 @@ body {
   font-size: 1.2rem;
   background-color: #eeeeee; }
 
+/*estilo nav utilizando mixins*/
 .navbar {
   background-color: #303841;
   position: fixed;
@@ -27,13 +31,19 @@ body {
       filter: drop-shadow(2.5px 2.5px 2.5px #ff5722);
       color: #303841; }
 
+/*estilo generales main*/
 .main {
   width: 80%;
   align-items: center;
   padding-top: 4rem;
   padding-bottom: 6rem;
   background: #eeeeee;
-  margin: 0 auto; }
+  margin: 0 auto;
+  /*estilos home*/
+  /*estilo sobre mi*/
+  /*estilo proyectos*/
+  /*extend para cada uno de los proyectos*/
+  /*estilo proyectos con extends*/ }
   @media (max-width: 600px) {
     .main {
       width: 100%; } }
@@ -170,6 +180,7 @@ body {
       transform: translate(-4px);
       box-shadow: 0 1px 14px 2px #303841; }
 
+/*estilo pie de pg con mixins*/
 footer {
   align-items: center;
   margin: 0 auto;
