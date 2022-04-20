@@ -95,6 +95,7 @@ body {
     text-align: center;
     overflow:hidden;
     img {
+      padding-bottom: 30px;
       border-radius: 30%;
       animation-duration: 5s;
       animation-name: slidein2;
@@ -130,7 +131,6 @@ body {
       to {
         margin-left: 0%;
         width: 100%;
-        background-color: $gris;
         }
       }
     span {

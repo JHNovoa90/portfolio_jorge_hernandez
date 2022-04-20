@@ -46,6 +46,7 @@ body {
     text-align: center;
     overflow: hidden; }
     .main .home2 img {
+      padding-bottom: 30px;
       border-radius: 30%;
       animation-duration: 5s;
       animation-name: slidein2; }
@@ -75,8 +76,7 @@ body {
     width: 100%; }
   to {
     margin-left: 0%;
-    width: 100%;
-    background-color: #303841; } }
+    width: 100%; } }
     .main .mi-nombre span {
       color: #ff5722;
       font-size: 45px; }
