@@ -128,13 +128,16 @@ body {
   }
 
   .about-img {
-    img {
       text-align: center;
       padding-top: 60px;
+      img{
 
       &:hover {
         cursor: pointer;
         transform: translate(-4px);
+      }
+      @media (max-width: 600px) {
+        margin: 10px;
       }
       
     }
