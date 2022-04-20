@@ -134,12 +134,9 @@ body {
 
       &:hover {
         cursor: pointer;
-        transform: scale(1.5);
-        box-shadow: 0 1px 14px 2px $gris;
+        transform: translate(-4px);
       }
-      @media (max-width: 600px) {
-        margin: 20px;
-      }
+      
     }
   }
   #projects2 {
