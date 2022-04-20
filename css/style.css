@@ -64,6 +64,7 @@ body {
     color: #00adb5;
     font-size: 30px;
     padding-top: 20px;
+    border-radius: 20%;
     animation-duration: 5s;
     animation-name: slidein1;
     animation-fill-mode: forwards; }
