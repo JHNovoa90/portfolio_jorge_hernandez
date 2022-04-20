@@ -99,16 +99,6 @@ textarea {
   padding-bottom: 80px;
 }
 
-.formulario a {
-  color: #eeeeee;
-  text-decoration: none;
-}
-
-.formulario a:hover {
-  color: #eeeeee;
-  text-decoration: underline #ff5722;
-}
-
 .botons {
   width: 100%;
   background: #00adb5;
