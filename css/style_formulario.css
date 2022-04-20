@@ -111,8 +111,7 @@ textarea {
 
 .botons {
   width: 100%;
-  background: rgb(238,238,238);
-  background: linear-gradient(0deg, rgba(238,238,238,1) 40%, rgba(0,173,181,1) 100%);
+  background: #00adb5;
   border-radius: 4px;
   border: none;
   padding: 12px;
@@ -131,7 +130,8 @@ textarea {
   border-radius: 5px;
   font-size: 1, 5em;
   border: 2px solid #ff5722;
-  background: #00adb5;
+  background: rgb(238,238,238);
+  background: linear-gradient(0deg, rgba(238,238,238,1) 40%, rgba(0,173,181,1) 100%);
   width: 50%;
   margin: auto;
   padding-bottom: 50px;
