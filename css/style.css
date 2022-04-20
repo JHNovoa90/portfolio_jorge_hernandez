@@ -65,7 +65,8 @@ body {
     font-size: 30px;
     padding-top: 20px;
     animation-duration: 5s;
-    animation-name: slidein1; }
+    animation-name: slidein1;
+    animation-fill-mode: forwards; }
 
 @keyframes slidein1 {
   from {
@@ -73,7 +74,8 @@ body {
     width: 100%; }
   to {
     margin-left: 0%;
-    width: 100%; } }
+    width: 100%;
+    background-color: #303841; } }
     .main .mi-nombre span {
       color: #ff5722;
       font-size: 45px; }

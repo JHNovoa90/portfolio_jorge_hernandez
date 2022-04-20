@@ -120,6 +120,7 @@ body {
     padding-top: 20px;
     animation-duration: 5s;
     animation-name: slidein1;
+    animation-fill-mode:forwards;
     @keyframes slidein1 {
       from {
         margin-left: 100%;
@@ -128,6 +129,7 @@ body {
       to {
         margin-left: 0%;
         width: 100%;
+        background-color: $gris;
         }
       }
     span {
