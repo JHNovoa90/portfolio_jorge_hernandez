@@ -19,7 +19,6 @@ $letra-fuente: "Changa", sans-serif;
 
 @mixin animacion-nav-item{
   background: $blanco;
-  border-radius: 10px;
   filter: drop-shadow(2.5px 2.5px 2.5px $naranja);
   color: $gris;
 }
