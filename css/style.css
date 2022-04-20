@@ -69,6 +69,10 @@ body {
   .main .about-img {
     text-align: center;
     padding-top: 60px; }
+    .main .about-img:hover {
+      cursor: pointer;
+      transform: scale(1.5);
+      box-shadow: 0 1px 14px 2px #303841; }
     @media (max-width: 600px) {
       .main .about-img {
         margin: 20px; } }

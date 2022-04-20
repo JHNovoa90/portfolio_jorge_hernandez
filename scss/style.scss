@@ -130,6 +130,12 @@ body {
   .about-img {
     text-align: center;
     padding-top: 60px;
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.5);
+      box-shadow: 0 1px 14px 2px $gris;
+    }
     @media (max-width: 600px) {
       margin: 20px;
     }
