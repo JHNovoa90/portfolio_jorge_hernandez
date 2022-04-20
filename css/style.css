@@ -66,15 +66,15 @@ body {
     font-size: 1.2em;
     color: #303841;
     padding-top: 40px; }
-  .main .about-img {
+  .main .about-img img {
     text-align: center;
     padding-top: 60px; }
-    .main .about-img:hover {
+    .main .about-img img:hover {
       cursor: pointer;
       transform: scale(1.5);
       box-shadow: 0 1px 14px 2px #303841; }
     @media (max-width: 600px) {
-      .main .about-img {
+      .main .about-img img {
         margin: 20px; } }
   .main #projects2 {
     grid-column: 1 / 2;
