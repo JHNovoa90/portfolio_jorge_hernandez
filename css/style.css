@@ -10,7 +10,9 @@ body {
   background-color: #eeeeee; }
 
 .navbar {
-  background-color: #303841; }
+  background-color: #303841;
+  position: fixed;
+  width: 100%; }
   .navbar .navbar-brand {
     font-size: 30px;
     color: #ff5722;
@@ -36,9 +38,10 @@ body {
   @media (max-width: 600px) {
     .main {
       width: 100%; } }
-  .main .home {
+  .main #home {
     text-align: center;
-    color: #00adb5; }
+    color: #00adb5;
+    padding-top: 90px; }
   .main .home2 {
     justify-content: center;
     align-items: center;
@@ -46,7 +49,7 @@ body {
     .main .home2 img {
       margin: auto;
       border-radius: 30%; }
-      @media (max-width: 450px) {
+      @media (max-width: 500px) {
         .main .home2 img {
           width: 90%;
           height: 90%; } }
@@ -59,7 +62,7 @@ body {
   .main #about2 {
     text-align: center;
     color: #00adb5;
-    padding-top: 60px; }
+    padding-top: 80px; }
   .main .about p {
     text-align: center;
     margin: auto;
@@ -72,7 +75,7 @@ body {
     .main .about-img img:hover {
       cursor: pointer;
       transform: translate(-4px); }
-    @media (max-width: 600px) {
+    @media (max-width: 766px) {
       .main .about-img img {
         margin: 10px; } }
   .main #projects2 {

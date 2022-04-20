@@ -12,10 +12,10 @@ body {
 
 .bg-lav {
   background-color: #303841;
+  position: fixed;
+  width: 100%;
 }
-#menuburger {
-  color: rgb(248, 4, 4);
-}
+
 .navbar-brand {
   font-size: 30px;
   color: #ff5722;

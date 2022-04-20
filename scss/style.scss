@@ -60,6 +60,8 @@ body {
 }
 .navbar {
   background-color: $gris;
+  position: fixed;
+  width: 100%;
 
   .navbar-brand {
     @include logo();
@@ -83,9 +85,10 @@ body {
     width: 100%;
   }
 
-  .home {
+  #home {
     text-align: center;
     color: $azul;
+    padding-top: 90px;
   }
 
   .home2 {
@@ -95,7 +98,7 @@ body {
     img {
       margin: auto;
       border-radius: 30%;
-      @media (max-width: 450px) {
+      @media (max-width: 500px) {
         width: 90%;
         height: 90%;
       }
@@ -114,7 +117,7 @@ body {
   #about2 {
     text-align: center;
     color: $azul;
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .about {
@@ -136,7 +139,7 @@ body {
         cursor: pointer;
         transform: translate(-4px);
       }
-      @media (max-width: 600px) {
+      @media (max-width: 766px) {
         margin: 10px;
       }
       

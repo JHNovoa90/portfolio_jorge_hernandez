@@ -12,6 +12,8 @@ body {
 
 .bg-lav {
   background-color: #303841;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar-brand {
@@ -39,6 +41,7 @@ body {
 
 .servicios {
   padding-bottom: 80px;
+  padding-top: 40px;
 }
 
 .post-list {
