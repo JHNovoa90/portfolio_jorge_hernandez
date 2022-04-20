@@ -34,7 +34,6 @@ body {
 
 .navbar .nav-item a:hover {
   background: #eeeeee;
-  border-radius: 10px;
   filter: drop-shadow(2.5px 2.5px 2.5px #ff5722);
   color: #303841;
 }
